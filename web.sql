@@ -39,6 +39,7 @@ CREATE TABLE `contacto` (
   `id_contacto` int(11) NOT NULL,
   `usuario` varchar(50) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
+  `motivo` varchar(50) DEFAULT NULL,
   `mensaje` varchar(255) NOT NULL,
   `fechaMensaje` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
