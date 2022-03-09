@@ -80,8 +80,8 @@
 				exit();
 			}
 			}else{
-		header("Location: index.php");
-	}
+				header("Location: index.php");
+			}
 		?>
 		
 		<p><a href="homeAdmin.php" class="botonazul">Volver</a></p>
